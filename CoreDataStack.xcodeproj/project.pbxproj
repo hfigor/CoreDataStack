@@ -17,6 +17,7 @@
 		3CC4B7AF21EE77770020AF7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4B7AE21EE77770020AF7E /* Assets.xcassets */; };
 		3CC4B7C021EE7BB90020AF7E /* NoteBook_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4B7BF21EE7BB90020AF7E /* NoteBook_VC.swift */; };
 		3CC4B7C221F0B78B0020AF7E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4B7C121F0B78B0020AF7E /* CoreDataManager.swift */; };
+		3CE05A6221F8ECFE00998D8D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CE05A6121F8ECFE00998D8D /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +30,9 @@
 		3CA6B08E21F6546900702E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Storyboards/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CC4B7AB21EE76490020AF7E /* README_CoreData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README_CoreData.txt; sourceTree = "<group>"; };
 		3CC4B7AE21EE77770020AF7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
-		3CC4B7B021EE77920020AF7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
 		3CC4B7BF21EE7BB90020AF7E /* NoteBook_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteBook_VC.swift; path = ViewControllers/Notes/NoteBook_VC.swift; sourceTree = "<group>"; };
 		3CC4B7C121F0B78B0020AF7E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = Managers/CoreDataManager.swift; sourceTree = "<group>"; };
+		3CE05A6121F8ECFE00998D8D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				3C9AB81D21624073003BCFCE /* CoreDataStack */,
-				3CC4B7AA21EE76200020AF7E /* Supporting Files */,
+				3CC4B7AA21EE76200020AF7E /* SupportingFiles */,
 				3C9AB81C21624073003BCFCE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,12 +122,12 @@
 			name = Managers;
 			sourceTree = "<group>";
 		};
-		3CC4B7AA21EE76200020AF7E /* Supporting Files */ = {
+		3CC4B7AA21EE76200020AF7E /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				3CC4B7B021EE77920020AF7E /* Info.plist */,
+				3CE05A6121F8ECFE00998D8D /* Info.plist */,
 			);
-			name = "Supporting Files";
+			name = SupportingFiles;
 			path = CoreDataStack;
 			sourceTree = "<group>";
 		};
@@ -232,6 +233,7 @@
 				3CA6B08F21F6546A00702E15 /* LaunchScreen.storyboard in Resources */,
 				3CA6B08C21F6537400702E15 /* Default-568h@2x.png in Resources */,
 				3CA6B08321F6459300702E15 /* NoteBook.storyboard in Resources */,
+				3CE05A6221F8ECFE00998D8D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
