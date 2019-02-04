@@ -17,7 +17,19 @@
                     <view key="view" contentMode="scaleToFill" id="l8J-KM-5GS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Alive" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8XA-1l-n7L">
+                                <rect key="frame" x="122" y="314" width="131" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8XA-1l-n7L" firstAttribute="centerX" secondItem="l8J-KM-5GS" secondAttribute="centerX" id="Nu0-mH-zMz"/>
+                            <constraint firstItem="8XA-1l-n7L" firstAttribute="centerY" secondItem="l8J-KM-5GS" secondAttribute="centerY" id="wSU-mN-qhb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FGY-dJ-9ZV"/>
                     </view>
                 </viewController>
