@@ -8,25 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3C9AB81F21624073003BCFCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9AB81E21624073003BCFCE /* AppDelegate.swift */; };
-		3C9AB82921624074003BCFCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9AB82721624074003BCFCE /* LaunchScreen.storyboard */; };
 		3CC4B7AC21EE76490020AF7E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4B7AB21EE76490020AF7E /* README.txt */; };
 		3CC4B7AF21EE77770020AF7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4B7AE21EE77770020AF7E /* Assets.xcassets */; };
-		3CC4B7B121EE77920020AF7E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4B7B021EE77920020AF7E /* Info.plist */; };
 		3CC4B7B521EE784B0020AF7E /* NoteBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4B7B321EE784B0020AF7E /* NoteBook.xcdatamodeld */; };
 		3CC4B7B921EE78ED0020AF7E /* NoteBook.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4B7B821EE78ED0020AF7E /* NoteBook.storyboard */; };
 		3CC4B7C021EE7BB90020AF7E /* NoteBook_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4B7BF21EE7BB90020AF7E /* NoteBook_VC.swift */; };
+		3CD4283D2204C72E0022E37A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4283C2204C72E0022E37A /* CoreDataManager.swift */; };
+		3CD42840220885E70022E37A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4283E220885E70022E37A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C9AB81B21624073003BCFCE /* CoreDataStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9AB81E21624073003BCFCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C9AB82821624074003BCFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CC4B7AB21EE76490020AF7E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		3CC4B7AE21EE77770020AF7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
 		3CC4B7B021EE77920020AF7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
 		3CC4B7B421EE784B0020AF7E /* NoteBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteBook.xcdatamodel; sourceTree = "<group>"; };
 		3CC4B7B821EE78ED0020AF7E /* NoteBook.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NoteBook.storyboard; sourceTree = "<group>"; };
 		3CC4B7BF21EE7BB90020AF7E /* NoteBook_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteBook_VC.swift; path = ViewControllers/Notes/NoteBook_VC.swift; sourceTree = "<group>"; };
+		3CD4283C2204C72E0022E37A /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = Managers/CoreDataManager.swift; sourceTree = "<group>"; };
+		3CD4283F220885E70022E37A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Storyboards/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +76,7 @@
 		3C9AB831216241A0003BCFCE /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
-				3C9AB82721624074003BCFCE /* LaunchScreen.storyboard */,
+				3CD4283E220885E70022E37A /* LaunchScreen.storyboard */,
 				3CC4B7B821EE78ED0020AF7E /* NoteBook.storyboard */,
 			);
 			name = StoryBoards;
@@ -110,6 +111,7 @@
 		3CC4B7A921EE760C0020AF7E /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				3CD4283C2204C72E0022E37A /* CoreDataManager.swift */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -218,11 +220,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C9AB82921624074003BCFCE /* LaunchScreen.storyboard in Resources */,
 				3CC4B7AC21EE76490020AF7E /* README.txt in Resources */,
 				3CC4B7AF21EE77770020AF7E /* Assets.xcassets in Resources */,
 				3CC4B7B921EE78ED0020AF7E /* NoteBook.storyboard in Resources */,
-				3CC4B7B121EE77920020AF7E /* Info.plist in Resources */,
+				3CD42840220885E70022E37A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +236,7 @@
 			files = (
 				3CC4B7B521EE784B0020AF7E /* NoteBook.xcdatamodeld in Sources */,
 				3C9AB81F21624073003BCFCE /* AppDelegate.swift in Sources */,
+				3CD4283D2204C72E0022E37A /* CoreDataManager.swift in Sources */,
 				3CC4B7C021EE7BB90020AF7E /* NoteBook_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,10 +244,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3C9AB82721624074003BCFCE /* LaunchScreen.storyboard */ = {
+		3CD4283E220885E70022E37A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3C9AB82821624074003BCFCE /* Base */,
+				3CD4283F220885E70022E37A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -375,7 +377,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N24V4NH8BJ;
-				INFOPLIST_FILE = CoreDataStack/Info.plist;
+				INFOPLIST_FILE = "CoreDataStack/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -393,7 +395,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N24V4NH8BJ;
-				INFOPLIST_FILE = CoreDataStack/Info.plist;
+				INFOPLIST_FILE = "CoreDataStack/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

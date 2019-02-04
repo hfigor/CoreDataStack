@@ -13,11 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    let coreDataManager = CoreDataManager(modelName: "DataModel")
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        print(coreDataManager.managedObjectContext)
+        let coreDataManager = CoreDataManager(modelName: "NoteBook")
+        print("Main MOC: \(coreDataManager.mainManagedObjectContext)")
         return true
     }
 

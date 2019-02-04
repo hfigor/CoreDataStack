@@ -1,9 +1,13 @@
 README.txt for my own research into core data pesistent store creation and locations derrived from the 'Fundamentals of Core Data '  Notes tutorial application from cocoacasts.com
 
-https://cocoacasts.com/exploring-the-core-data-stack
-Now in git branch ReplaceCoreDataManager copied over previous code with download from starter 28
+https://cocoacasts.com/setting-up-the-core-data-stack
 
-Working Directory:Users/frankcipolla/Dropbox/Workspace/Book_Tutorials/CoreData/CocoaCasts/CoreDataFundementals_CocoaCasts/Notes-Starter_26/Notes/README.txt
+Working in branch CoreDataStack
+Working Directory:/Users/frankcipolla/Workspace/CoreData/CoreDataStack/CoreDataStack/README.txt
+
+set up Managers group.  Use this rather than putting CoreDataStack setup in the application delegate
+
+
 
 
 This Chapter adds Tags to notes
